@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.1.0 http://maven.apache.org/xsd/settings-1.1.0.xsd" xmlns="http://maven.apache.org/SETTINGS/1.1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <!--<localRepository>C:\Users\dipakrai\.m2\repository</localRepository>-->
+
+    <pluginGroups>
+        <!-- Nothing is present now-->
+    </pluginGroups>
+
+    <proxies>
+        <!-- Nothing is present now-->
+    </proxies>
+
+  <servers>
+    <server>
+      <username>admin</username>
+      <password>{v2akWC7LO8QHuoPFXESAScpHLzTFzcIKG054oyvz/nc=}</password>
+      <id>central</id>
+    </server>
+    <server>
+      <username>admin</username>
+      <password>{v2akWC7LO8QHuoPFXESAScpHLzTFzcIKG054oyvz/nc=}</password>
+      <id>snapshots</id>
+    </server>
+  </servers>
+  <mirrors>
+        <mirror>
+            <id>artifactory</id>
+            <url>http://localhost:8081/artifactory/repo1</url>
+            <mirrorOf>central</mirrorOf>
+        </mirror>
+  </mirrors> 
+  <profiles>
+    <profile>
+    <id>artifadeploymentRepoctory</id>
+    <activation>
+            <activeByDefault>true</activeByDefault>
+    </activation>
+      <repositories>
+        <repository>
+          <snapshots>
+            <enabled>false</enabled>
+          </snapshots>
+          <id>central</id>
+          <name>HelloMaven-release</name>
+          <url>http://localhost:8081/artifactory/repo1</url>
+        </repository>
+        <repository>
+          <snapshots />
+          <id>snapshots</id>
+          <name>HelloMaven-snapshot</name>
+          <url>http://localhost:8081/artifactory/repo1</url>
+        </repository>
+      </repositories>
+
+    </profile>
+  </profiles>
+  <activeProfiles>
+    <activeProfile>artifactory</activeProfile>
+  </activeProfiles>
+</settings>

@@ -2,8 +2,6 @@
 <settings xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.1.0 http://maven.apache.org/xsd/settings-1.1.0.xsd" xmlns="http://maven.apache.org/SETTINGS/1.1.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
-    <!--<localRepository>C:\Users\dipakrai\.m2\repository</localRepository>-->
-
     <pluginGroups>
         <!-- Nothing is present now-->
     </pluginGroups>
@@ -15,12 +13,12 @@
   <servers>
     <server>
       <username>admin</username>
-      <password>{v2akWC7LO8QHuoPFXESAScpHLzTFzcIKG054oyvz/nc=}</password>
+      <password>admin1234</password>
       <id>central</id>
     </server>
     <server>
       <username>admin</username>
-      <password>{v2akWC7LO8QHuoPFXESAScpHLzTFzcIKG054oyvz/nc=}</password>
+      <password>admin1234</password>
       <id>snapshots</id>
     </server>
   </servers>
@@ -44,7 +42,7 @@
           </snapshots>
           <id>central</id>
           <name>HelloMaven-release</name>
-          <url>http://localhost:8081/artifactory/repo1</url>
+          <url>http://localhost:8088/artifactory/</url>
         </repository>
         <repository>
           <snapshots />

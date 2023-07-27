@@ -35,21 +35,7 @@
     <activation>
             <activeByDefault>true</activeByDefault>
     </activation>
-      <repositories>
-        <repository>
-          <snapshots>
-            <enabled>false</enabled>
-          </snapshots>
-          <id>repository</id>
-          <url>http://www.testartifactory.com/artifactory/testmaven1//</url>
-        </repository>
-        <repository>
-          <snapshots />
-          <id>snapshots</id>
-          <name>HelloMaven-snapshot</name>
-          <url>http://www.testartifactory.com/artifactory/testmaven1/</url>
-        </repository>
-      </repositories>
+
 
     </profile>
   </profiles>

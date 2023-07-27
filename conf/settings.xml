@@ -19,7 +19,6 @@
     <server>
       <username>admin</username>
       <password>admin1234</password>
-      <id>snapshots</id>
     </server>
   </servers>
   <mirrors>
@@ -41,13 +40,7 @@
             <enabled>false</enabled>
           </snapshots>
           <id>central</id>
-          <name>HelloMaven-release</name>
-          <url>http://www.testartifactory.com/artifactory/testmaven1//</url>
-        </repository>
-        <repository>
-          <snapshots />
-          <id>snapshots</id>
-          <name>HelloMaven-snapshot</name>
+          <name>testmaven1</name>
           <url>http://www.testartifactory.com/artifactory/testmaven1/</url>
         </repository>
       </repositories>

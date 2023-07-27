@@ -57,9 +57,9 @@
 <distributionManagement>
 
     <repository>
-		  <id>devopstest</id>
+		  <id>repository</id>
 		  <name>Internal Releases</name>
-		  <url>http://0.0.0.0:8087/repository/devopstest-hosted-release/</url>
+		  <url>http://www.testartifactory.com/artifactory/testmaven1/</url>
 	  </repository>
  
 	  <snapshotRepository>

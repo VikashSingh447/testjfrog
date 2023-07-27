@@ -14,7 +14,7 @@
     <server>
       <username>admin</username>
       <password>admin1234</password>
-      <id>central</id>
+      <id>artifactory</id>
     </server>
     <server>
       <username>admin</username>
@@ -39,7 +39,7 @@
           <snapshots>
             <enabled>false</enabled>
           </snapshots>
-          <id>central</id>
+          <id>artifactory</id>
           <name>testmaven1</name>
           <url>http://www.testartifactory.com/artifactory/testmaven1/</url>
         </repository>
